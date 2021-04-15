@@ -133,7 +133,9 @@ b {
   .nav-item {
     text-align: center;
   }
-
+  .hero-image {
+    background-position-x: -25rem;
+  }
   .company-name {
     max-height: 300px;
     padding: 2rem;
