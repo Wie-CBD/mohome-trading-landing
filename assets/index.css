@@ -23,7 +23,7 @@ body {
   border-radius: 50%;
 }
 .aluminium-text {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .left-container {
   background-color: rgb(173, 173, 173);
@@ -46,7 +46,6 @@ h5,
 b {
   font-family: "Lato", sans-serif;
   font-weight: 700 !important;
-  letter-spacing: 1px;
 }
 .mohome-name {
   text-align: right;
@@ -106,8 +105,8 @@ b {
 }
 .company-name h1,
 .company-name h3 {
-  font-weight: 400 !important;
   text-shadow: 0 0 10px rgb(0 0 0 / 25%);
+  letter-spacing: 1px;
 }
 .about-subdiv {
   padding: 2rem;
@@ -123,8 +122,12 @@ b {
   margin-left: 1rem;
   color: rgb(19, 176, 216);
 }
-.offices b {
+.office-name {
   color: rgb(19, 176, 216);
+  margin-bottom: 0;
+}
+.contact-email {
+  text-decoration: none;
 }
 @media screen and (max-width: 720px) {
 }
