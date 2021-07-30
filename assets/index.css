@@ -4,9 +4,13 @@ body {
   min-height: 100vh;
   font-weight: 400 !important;
   color: rgb(173, 173, 173);
+  background-color: black;
 }
 .bg-grey {
   background-color: rgba(173, 173, 173, 0.15);
+}
+.bg-black {
+  background-color: black;
 }
 .connect {
   background-image: url("./img/connect.jpg");
